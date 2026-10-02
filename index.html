@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JALIL MODIR KHAZENI</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#14202b;--mute:#52616e;--line:#d6dee5;--acc:#1f5f73;--acc2:#e8f1f4;--bg1:#f7f9fb;--bg2:#e9eff3;--card:#ffffffcc}
+@media(prefers-color-scheme:dark){:root{--ink:#eaf0f4;--mute:#a3b2be;--line:#2b3a46;--acc:#7fc3d6;--acc2:#16303a;--bg1:#0f1a22;--bg2:#0b1319;--card:#13212bcc}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;min-height:100vh;color:var(--ink);font-family:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;line-height:1.7;background:linear-gradient(160deg,var(--bg1),var(--bg2)) fixed}
+.wrap{max-width:720px;margin:0 auto;padding:clamp(40px,8vw,88px) 22px 40px}
+h1,.serif{font-family:'Fraunces',Georgia,'Times New Roman',serif;font-weight:600}
+header{text-align:center;margin-bottom:44px}
+h1{font-size:clamp(2rem,7.5vw,3.3rem);letter-spacing:.04em;line-height:1.15;margin:0 0 14px}
+.role{font-size:clamp(1rem,3.4vw,1.2rem);color:var(--acc);font-weight:600;margin:0 0 6px}
+.sub{color:var(--mute);font-size:.95rem;margin:0 0 26px}
+.intro{max-width:560px;margin:0 auto;font-size:1.05rem;color:var(--ink)}
+.item{border-top:1px solid var(--line)}.item:last-of-type{border-bottom:1px solid var(--line)}
+.head{all:unset;box-sizing:border-box;cursor:pointer;width:100%;display:flex;align-items:center;gap:16px;padding:22px 4px}
+.head:focus-visible,.btn:focus-visible,a:focus-visible{outline:2px solid var(--acc);outline-offset:3px;border-radius:6px}
+.num{color:var(--acc);font-weight:600;font-size:.85rem;min-width:28px}
+.ttl{flex:1;font-size:1.15rem;font-weight:600}
+.ico{width:12px;height:12px;border-right:2px solid var(--mute);border-bottom:2px solid var(--mute);transform:rotate(45deg);transition:transform .3s;margin-top:-4px}
+.item.open .ico{transform:rotate(225deg);margin-top:4px}
+.panel{display:grid;grid-template-rows:0fr;transition:grid-template-rows .35s ease}
+.item.open .panel{grid-template-rows:1fr}
+.inner{overflow:hidden;visibility:hidden;transition:visibility .35s}
+.item.open .inner{visibility:visible}
+.body{padding:2px 4px 28px 48px}
+html[dir=rtl] .body{padding:2px 48px 28px 4px}
+.body p{margin:0 0 16px;color:var(--mute)}
+ul.list{list-style:none;margin:0 0 20px;padding:0}
+ul.list li{padding:6px 0;border-bottom:1px dashed var(--line);color:var(--ink)}
+ul.chips{list-style:none;margin:0 0 22px;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+ul.chips li{background:var(--acc2);color:var(--acc);border-radius:999px;padding:5px 14px;font-size:.88rem;font-weight:600}
+.big{font-size:clamp(1.4rem,5vw,1.9rem);color:var(--acc);letter-spacing:.06em;margin:0 0 14px}
+.btn{display:inline-block;text-decoration:none;background:var(--acc);color:#fff;padding:12px 24px;border-radius:999px;font-weight:600;font-size:.95rem;transition:transform .2s,opacity .2s}
+@media(prefers-color-scheme:dark){.btn{color:#0b1319}}
+.btn:hover{transform:translateY(-1px);opacity:.92}
+.btn.alt{background:transparent;color:var(--acc);border:1.5px solid var(--acc)}
+.links{display:flex;flex-wrap:wrap;gap:12px}
+footer{text-align:center;margin-top:64px;padding-top:34px;border-top:1px solid var(--line)}
+footer .n{font-size:1.1rem;letter-spacing:.06em;margin:0 0 4px}
+footer .r{color:var(--acc);font-weight:600;margin:0 0 4px;font-size:.95rem}
+footer .p{color:var(--mute);margin:0 0 22px;font-size:.9rem}
+.social,.langs{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 18px;margin:0 0 18px;font-size:.92rem}
+.social a,.langs a{color:var(--mute);text-decoration:none}.social a:hover,.langs a:hover{color:var(--acc)}
+.langs a.cur{color:var(--acc);font-weight:700}
+@media(max-width:480px){.body,html[dir=rtl] .body{padding-left:4px;padding-right:4px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+:root{--ink:#f3ead6;--mute:#b9ad94;--line:#3a3226;--acc:#e0b95a;--acc2:#2a2216;--bg1:#16120f;--bg2:#090807;--card:#1a1612cc}
+body{background:radial-gradient(ellipse 80% 45% at 50% 0%,rgba(224,185,90,.24),transparent 70%),radial-gradient(ellipse 70% 30% at 50% 100%,rgba(224,185,90,.12),transparent 70%),repeating-linear-gradient(45deg,rgba(255,255,255,.014) 0 2px,transparent 2px 5px),linear-gradient(160deg,var(--bg1),var(--bg2));background-attachment:fixed}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.35;background-image:radial-gradient(circle,rgba(240,205,120,.9) 0 1px,transparent 1.6px),radial-gradient(circle,rgba(240,205,120,.6) 0 1px,transparent 1.6px);background-size:97px 97px,151px 151px;background-position:0 0,41px 63px;-webkit-mask-image:linear-gradient(#000,transparent 70%);mask-image:linear-gradient(#000,transparent 70%)}
+.wrap{position:relative;z-index:1}
+h1,.big{background:linear-gradient(180deg,#fbe9b0,#d3a243 85%);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
+header::before,header::after{content:"";display:block;width:min(340px,72%);height:1px;margin:0 auto 34px;background:linear-gradient(90deg,transparent,#e0b95a,transparent);box-shadow:0 0 14px rgba(224,185,90,.8)}
+header::after{margin:34px auto 0}
+.role{color:#e0b95a}
+.item,.item:last-of-type{border:1px solid var(--line);border-radius:14px;margin-bottom:12px;background:var(--card);transition:border-color .3s,box-shadow .3s}
+.item.open{border-color:rgba(224,185,90,.6);box-shadow:0 0 28px rgba(224,185,90,.14)}
+.head{padding:20px 18px}
+.body{padding:2px 20px 26px 62px}html[dir=rtl] .body{padding:2px 62px 26px 20px}
+@media(max-width:480px){.body,html[dir=rtl] .body{padding:2px 20px 24px}}
+ul.list li{border-bottom:1px dashed #3a3226}
+ul.chips li{border:1px solid #4d4126}
+.btn{background:linear-gradient(180deg,#f0cf7c,#c9993a);color:#1a140a;box-shadow:0 4px 16px rgba(224,185,90,.25)}
+.btn.alt{background:transparent;color:#e0b95a;border:1.5px solid #e0b95a;box-shadow:none}
+.cover{display:block;width:min(220px,72%);height:auto;margin:0 0 22px;border-radius:6px;box-shadow:0 12px 30px rgba(0,0,0,.65),0 0 26px rgba(224,185,90,.28)}
+.card{border-color:#4d4126}.card:hover{box-shadow:0 0 24px rgba(224,185,90,.2)}
+footer{border-top-color:#4d4126}
+.cover.banner{width:100%;max-width:100%;border-radius:10px}
+
+body{display:flex;align-items:center}
+.wrap{width:100%;text-align:center}
+.ask{margin:44px 0 18px;color:var(--mute);font-size:.95rem}
+.cards{display:grid;gap:14px;max-width:420px;margin:0 auto}
+.card{display:flex;align-items:center;justify-content:center;gap:14px;text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;font-size:1.2rem;font-weight:600;transition:border-color .2s,transform .2s}
+.card:hover{border-color:var(--acc);transform:translateY(-2px)}
+.card span{font-size:1.6rem;line-height:1}
+@media(min-width:700px){.cards{grid-template-columns:repeat(3,1fr);max-width:680px}.card{flex-direction:column;gap:10px;padding:28px 12px}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<h1>JALIL MODIR KHAZENI</h1>
+<p class="ask">Choose Your Language</p>
+<nav class="cards" aria-label="Language">
+<a class="card" href="jalil-modir-khazeni-es.html" lang="es" hreflang="es"><span>🇪🇸</span>Español</a>
+<a class="card" href="jalil-modir-khazeni-en.html" lang="en" hreflang="en"><span>🇬🇧</span>English</a>
+<a class="card" href="jalil-modir-khazeni-fa.html" lang="fa" hreflang="fa" dir="rtl"><span>🇮🇷</span>فارسی</a>
+</nav>
+</main>
+</body>
+</html>
